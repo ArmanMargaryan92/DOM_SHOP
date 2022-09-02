@@ -1,0 +1,155 @@
+* {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.2s linear;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgb(113, 62, 7);
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 9%;
+}
+
+header > p {
+  font-size: 26px;
+  color: rgba(249, 151, 24, 0.943);
+  box-shadow: 0 0.2rem 1rem rgb(1, 1, 1);
+}
+header > p > span {
+  color: rgb(176, 20, 26);
+}
+
+header > p:hover {
+  color: gainsboro;
+  transition: 0.4s;
+}
+
+.between{
+ width: 100%;
+ height: 78px;
+
+}
+
+.basket {
+  height: 35px;
+}
+body {
+  background-color: rgb(88, 53, 53);
+}
+
+.parentdiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.boxcard {
+  color: aliceblue;
+  background-color: rgb(44, 77, 77);
+  border-radius: 4%;
+  width: 355px;
+  height: 300px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 2rem 2rem rgb(5, 1, 1);
+}
+
+
+.imgsize:hover{
+  padding: 15px;
+  transition: 0.4s;
+}
+.imgsize {
+  width: 100%;
+  height: 85%;
+}
+.miniboxcard {
+  font-size: 19px;
+  position: relative;
+  display: flex;
+  padding: 10px;
+}
+.miniboxcard > button {
+  position: absolute;
+  color: rgb(128, 0, 0);
+  font-size: 14px;
+  left: 160px;
+  font-size: 16px;
+}
+
+.miniboxcard > span {
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  left: 262px;
+}
+.miniboxcard > button:hover {
+  color: rgb(28, 24, 24);
+  background-color: brown;
+}
+
+.miniboxcard > span:hover {
+  color: brown;
+}
+.miniboxcard > div {
+  position: absolute;
+  left: 13rem;
+}
+
+.korzina{
+ display: none;
+  position: absolute;
+  z-index: 1002;
+right: 0;
+  z-index: 500;
+  height: 400px;
+  width: 400px;
+  transition: 0.3s; 
+  background-color: rgba(183, 220, 214, 0.924);
+}
+.active{
+  display: block;
+}
+
+
+.close{
+  z-index: 10003;
+position:absolute ;
+right: 2px;
+font-size: 22px;
+color: rgb(95, 8, 8);
+background-color: rgb(242, 239, 239);
+}
+.icon{
+  font-size: 20px;
+  color: black;
+}
+
+
+.basketItem{
+  gap: 1.5rem;
+  width: 100%;
+  height: 10%;
+  margin-bottom: 5px;
+  background-color: blue;
+  display: flex;
+
+}
+
+.basketimg{
+  height: 100%;
+  width: 18%;
+
+}
